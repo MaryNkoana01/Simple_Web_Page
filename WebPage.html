@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Donation</title>
+    <style>
+  
+
+    </style>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>
+            Blood Saves Lives
+        </h1>
+        <h2>
+            Donate blood today your blood saves lives❤️
+        </h2>
+        <img src="https://encrypted-tbn0.
+        gstatic.com/images?q=tbn:ANd9GcSnJmjP9fSEBLaNd-
+        l07hJEjwF6CCgea-NiVA&usqp=CAU" alt="Greek Yogurt" />
+
+        
+        <button class="buy-button">
+            👉 Donate here
+        </button>
+        <p class="footer">
+            This page was built by
+            <a href="https://www.delac.io/" target="_blank">
+                Mary Nkoana
+            </a>
+        </p>
+    </div>
+    <script>
+        function donate() {
+            let name = prompt("enter your name:")
+            let email = prompt("enter your email:")
+            alert(`Thank you ${name} will get back to on this email ${email}`)
+        }
+        let DonateButton = document.querySelector(".buy-button");
+        DonateButton.addEventListener("click", donate)
+    </script>
 </body>
+
 </html>
